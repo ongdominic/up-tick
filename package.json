@@ -1,0 +1,31 @@
+{
+  "name": "UpTick",
+  "private": true,
+  "description": "Data Consultancy",
+  "version": "0.1.0",
+  "license": "UpTick 2019",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "gatsby": "^2.0.107",
+    "react": "^16.7.0",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-dom": "^16.7.0",
+    "react-icons": "^3.3.0",
+    "react-responsive": "^6.1.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "prettier": "^1.16.3"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
